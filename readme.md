@@ -1,11 +1,11 @@
 # iOS上架指南
 
-##1 前提
+## 1 前提
 
 默认开发者已经有iOS开发者账号。账号类型区别可以在[账号说明](https://developer.apple.com/support/compare-memberships/)中查看。
 
-##2 创建证书
-###2.1 创建请求文件
+## 2 创建证书
+### 2.1 创建请求文件
 在mac的应用里找到**钥匙串(Keychain Access)**应用
 ![keychain Screenshot](./assert/keychain.png)
 填写好证书信息，保存请求文件到电脑。(Email Address填开发者的邮件，common name是证书中密钥的名字，CA email address可以不填)
@@ -17,7 +17,7 @@ public key一般随证书（随Provisioning Profile，随App）散布出去，�
 ![keychainlogin Screenshot](./assert/keychainlogin.png)
 并且在相应文件夹中多了证书请求文件
 ![cer Screenshot](./assert/cer.png)
-###2.2 创建证书
+### 2.2 创建证书
 登陆[苹果开发者官网](https://developer.apple.com)，[申请证书](https://developer.apple.com/account/ios/certificate/create)
 ![applecer Screenshot](./assert/applecer.png)
 证书有两种: <br>
